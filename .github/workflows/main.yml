@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  hello-job:
+    runs-on: "ubuntu-latest"
+    name: "A greeting job"
+    steps:
+      - name: Greeting action step
+        id: greeting
+        uses: egrzeszczak/my-first-github-action@v1
+        with:
+          who-to-greet: "Erni"
+      - name: Get output the time
+        run: echo "The time was ${{ steps.greeting.outputs.time }}"
