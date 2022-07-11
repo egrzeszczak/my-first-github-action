@@ -1,0 +1,20 @@
+{
+  "name": "my-first-github-action",
+  "version": "1.0.0",
+  "description": "This is my first github action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egrzeszczak/my-first-github-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egrzeszczak/my-first-github-action/issues"
+  },
+  "homepage": "https://github.com/egrzeszczak/my-first-github-action#readme"
+}
