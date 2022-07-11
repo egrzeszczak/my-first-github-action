@@ -2,12 +2,12 @@ name: "Greetings"
 description: "Greeting someone"
 inputs:
   who-to-greet:
-		description: "Who to greet"
-		required: true
-		default: "brave advanturer..."
+    description: "Who to greet"
+    required: true
+    default: "brave advanturer..."
 outputs:
-	time:
-		description: "The time we greeted you"
+  time:
+    description: "The time we greeted you"
 runs:
-	using: "node12"
-	main: "index.js"
+  using: "node12"
+  main: "index.js"
