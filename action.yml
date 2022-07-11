@@ -1,7 +1,7 @@
 name: "Greetings"
 description: "Greeting someone"
 inputs:
-	who-to-greet:
+  who-to-greet:
 		description: "Who to greet"
 		required: true
 		default: "brave advanturer..."
